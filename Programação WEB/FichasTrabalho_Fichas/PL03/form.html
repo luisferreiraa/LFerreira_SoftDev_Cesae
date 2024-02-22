@@ -6,6 +6,107 @@
     <title>Formulário</title>
   </head>
   <body>
-    <form action=""></form>
+    <form action="" method="post">
+      <fieldset>
+        <legend>Formulário de contacto CESAE</legend>
+
+        <div style="line-height: 30px">
+          <label for="Nome">Nome</label>
+          <input type="text" name="" id="" placeholder="Introduz o teu nome." />
+        </div>
+
+        <div style="line-height: 30px">
+          <label for="Email">Email</label>
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="Introduz o teu email."
+            value=""
+          />
+        </div>
+
+        <div style="line-height: 30px">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name=""
+            id=""
+            placeholder="Introduz a tua senha." required
+          />
+        </div>
+
+        <div style="line-height: 30px">
+          <label for="data">Data</label>
+          <input type="date" name="" id="" />
+        </div>
+
+        <div style="line-height: 30px">
+          <label for="file">Ficheiros</label>
+          <input type="file" name="" id="" />
+        </div>
+
+        <div style="line-height: 30px">
+          <label for="number">Número</label>
+          <input type="number" name="" id="" max="5" />
+        </div>
+
+        <div style="line-height: 30px">
+          <label style="font-weight: bold" for="">Dia da semana atual</label
+          ><br />
+          <input type="radio" name="dia" id="" /><label for=""
+            >Segunda-feira</label
+          ><br />
+          <input type="radio" name="dia" id="" /><label for=""
+            >Terça-feira</label
+          ><br />
+          <input type="radio" name="dia" id="" /><label for=""
+            >Quarta-feira</label
+          ><br />
+          <input type="radio" name="dia" id="" /><label for=""
+            >Quinta-feira</label
+          ><br />
+          <input type="radio" name="dia" id="" /><label for=""
+            >Sexta-feira</label
+          >
+        </div>
+
+        <div style="line-height: 30px">
+          <label style="font-weight: bold" for="">Cor favorita</label><br />
+          <input type="checkbox" name="cor" id="" /><label for="">Azul</label>
+          <input type="checkbox" name="cor" id="" /><label for="">Preto</label>
+          <input type="checkbox" name="cor" id="" /><label for="">Verde</label>
+        </div>
+
+        <div style="line-height: 30px">
+          <label style="font-weight: bold" for="">Curso</label>
+
+          <select name="" id="">
+            <option value="">Matéria 1</option>
+            <option value="">Matéria 2</option>
+            <option value="">Matéria 3</option>
+            <option value="">Matéria 4</option>
+          </select>
+        </div>
+
+        <div style="line-height: 30px">
+          <label style="font-weight: bold" for="">Comentários</label><br />
+          <textarea
+            name=""
+            id=""
+            cols="50"
+            rows="5"
+            placeholder="Escreve aqui os teus comentários."
+          ></textarea>
+        </div>
+
+        <div>
+
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </div>
+
+      </fieldset>
+    </form>
   </body>
 </html>
