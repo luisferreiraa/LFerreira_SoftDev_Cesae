@@ -11,13 +11,13 @@ public class Exercício08 {
         double nota1, nota2, nota3, media;
 
         System.out.println("Insira nota 1:");
-        nota1 = input.nextInt();
+        nota1 = input.nextDouble();
 
         System.out.println("Insira nota 2:");
-        nota2 = input.nextInt();
+        nota2 = input.nextDouble();
 
         System.out.println("Insira nota 3:");
-        nota3 = input.nextInt();
+        nota3 = input.nextDouble();
 
         media = ((nota1 * 0.25) + (nota2 + 0.35) + (nota3 * 0.40));
 
