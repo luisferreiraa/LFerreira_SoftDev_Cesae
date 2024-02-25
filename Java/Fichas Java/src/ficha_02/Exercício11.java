@@ -8,20 +8,20 @@ public class Exercício11 {
 
         Scanner input = new Scanner(System.in);
 
-        int saldoMedio, valorMovimentar, saldoAtual;
+        double saldoMedio, valorMovimentar, saldoAtual;
 
         System.out.println("Insira o Saldo Médio:");
-        saldoMedio = input.nextInt();
+        saldoMedio = input.nextDouble();
 
         System.out.println("Insira o Valor a Movimentar:");
-        valorMovimentar = input.nextInt();
+        valorMovimentar = input.nextDouble();
 
         saldoAtual = saldoMedio + valorMovimentar;
 
         if (saldoAtual >= 0) {
-            System.out.println("Operação válida. Saldo Atual: " + saldoAtual);
+            System.out.println("Operação válida. Saldo Atual: " + saldoAtual + "€");
         } else {
             System.out.println("Operação inválida. Saldo Atual negativo.");
         }
     }
-    }
+}

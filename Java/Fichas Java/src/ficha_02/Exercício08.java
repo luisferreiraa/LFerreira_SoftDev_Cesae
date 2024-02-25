@@ -21,7 +21,9 @@ public class Exercício08 {
 
         media = ((nota1 * 0.25) + (nota2 + 0.35) + (nota3 * 0.40));
 
-        if (media > 9.5) {
+        System.out.println("Média Ponderada: " + media);
+
+        if (media >= 9.5) {
             System.out.println("Aprovado! :D");
         } else {
             System.out.println("Reprovado :(");
