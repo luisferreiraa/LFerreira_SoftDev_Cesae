@@ -1,0 +1,32 @@
+body {
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#alinhaEsquerda {
+    text-align: left;
+}
+
+#alinhaDireita {
+    text-align: right;
+}
+
+#alinhaCentro {
+    text-align: center;
+}
+
+.vermelho {
+    color:red;
+}
+
+.azul {
+    color:blue;
+}
+
+.verde {
+    color:green;
+}

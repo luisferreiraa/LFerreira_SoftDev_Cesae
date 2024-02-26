@@ -1,6 +1,31 @@
 body {
-  padding: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 12px;
-  line-height: 20px;
+  background-color: bisque;
+  margin: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header, footer {
+  text-align: center;
+  background-color: grey;
+  padding: 5px;
+  margin: 10px;
+  position: sticky;
+}
+
+#imagemHead {
+  width: 50%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+p {
+  text-align: justify;
 }
