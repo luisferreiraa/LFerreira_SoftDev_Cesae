@@ -1,10 +1,16 @@
 body {
-  background-color: bisque;
+  background-color: bisque!important;
   margin: 20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-header, footer {
+main {
+  margin: 20px;
+}
+
+
+footer {
   text-align: center;
   background-color: grey;
   padding: 5px;
@@ -12,8 +18,8 @@ header, footer {
   position: sticky;
 }
 
-#imagemHead {
-  width: 50%;
+header img {
+  width: 300px;
 }
 
 nav a {
@@ -26,6 +32,21 @@ nav a:hover {
   color: black;
 }
 
+.form-inline {
+margin-left: auto;
+margin-right: 5%;
+}
+
+.fab {
+  color: black;
+  display: inline-block;
+}
+
 p {
   text-align: justify;
+}
+
+span {
+  background-color: red;
+  color: white;
 }
