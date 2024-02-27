@@ -8,13 +8,38 @@
     <link rel="stylesheet" href="css/estilo.css" />
   </head>
   <body>
-    <header style="text-align: center">
-      <img
-        width="300px"
-        src="https://www.cesaedigital.pt/wp-content/uploads/2016/07/logo_cesae-cores_horizontal_header_site.png"
-        alt=""
-      />
-      <nav>
+
+    <header>   
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="https://www.cesaedigital.pt/wp-content/uploads/2016/07/logo_cesae-cores_horizontal_header_site.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/Programação WEB/FichasTrabalho_Fichas/PL02/Exercicio001.html">Início<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Programação WEB/FichasTrabalho_Fichas/PL02/multimedia.html">Multimédia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Programação WEB/FichasTrabalho_Fichas/PL03/form.html">Formulário</a>
+            </li>
+          </ul>
+        <a href="https://www.facebook.com/CesaeDigital"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/company/cesae-digital/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.youtube.com/user/CESAECanal"><i class="fab fa-youtube"></i></a>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search">
+          </form>
+        </div>
+
+      </nav>
+      
+    <!-- <nav>
       <hr />
       <a href="/Exercicio001.html" target="_blank"
         >Início</a
@@ -41,8 +66,10 @@
           width="25px"
           src="/youtube.png"
       /></a>
-    </nav>
+    </nav> -->
+
     </header>
+
     <main>
     <form action="" method="post">
       <fieldset>
@@ -50,29 +77,17 @@
 
         <div style="line-height: 30px">
           <label for="Nome">Nome</label>
-          <input type="text" name="" id="" placeholder="Introduz o teu nome." />
+          <input type="text" name="" id="" placeholder="Introduz o teu nome.">
         </div>
 
         <div style="line-height: 30px">
           <label for="Email">Email</label>
-          <input
-            type="email"
-            name=""
-            id=""
-            placeholder="Introduz o teu email."
-            value=""
-          />
+          <input type="email" name="" id="" placeholder="Introduz o teu email." value="">
         </div>
 
         <div style="line-height: 30px">
           <label for="password">Password</label>
-          <input
-            type="password"
-            name=""
-            id=""
-            placeholder="Introduz a tua senha."
-            required
-          />
+          <input type="password" name="" id="" placeholder="Introduz a tua senha." required>
         </div>
 
         <div style="line-height: 30px">
@@ -92,19 +107,19 @@
 
         <div style="line-height: 30px">
           <label style="font-weight: bold" for="">Dia da semana atual</label
-          ><br />
+          ><br>
           <input type="radio" name="dia" id="" /><label for=""
             >Segunda-feira</label
-          ><br />
+          ><br>
           <input type="radio" name="dia" id="" /><label for=""
             >Terça-feira</label
-          ><br />
+          ><br>
           <input type="radio" name="dia" id="" /><label for=""
             >Quarta-feira</label
-          ><br />
+          ><br>
           <input type="radio" name="dia" id="" /><label for=""
             >Quinta-feira</label
-          ><br />
+          ><br>
           <input type="radio" name="dia" id="" /><label for=""
             >Sexta-feira</label
           >
