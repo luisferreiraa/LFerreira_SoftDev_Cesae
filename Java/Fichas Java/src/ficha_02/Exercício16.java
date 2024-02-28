@@ -8,30 +8,44 @@ public class Exercício16 {
 
         Scanner input = new Scanner(System.in);
 
+        int numNotas, resto;
+
 
         System.out.println("Introduza um valor (deve ser multiplo de 5): ");
         int valor = input.nextInt();
 
-        int n200 = valor / 200;
-        valor %= 200;
-        int n100 = valor / 100;
-        valor %= 100;
-        int n50 = valor / 50;
-        valor %= 50;
-        int n20 = valor / 20;
-        valor %= 20;
-        int n10 = valor / 10;
-        valor %= 10;
-        int n5 = valor / 5;
-        valor %= 5;
+        if (valor % 5 == 0) {
 
-        System.out.println("Notas de 200 " + n200);
-        System.out.println("Notas de 100 " + n100);
-        System.out.println("Notas de 50 " + n50);
-        System.out.println("Notas de 20 " + n20);
-        System.out.println("Notas de 10 " + n10);
-        System.out.println("Notas de 5 " + n5);
+            //200
+            numNotas = valor / 200;
+            System.out.println("Notas de 200: " + numNotas);
+            valor = valor % 200;
 
+            //100
+            numNotas = valor / 100;
+            System.out.println("Notas de 100: " + numNotas);
+            valor = valor % 100;
+
+            numNotas = valor / 50;
+            System.out.println("Notas de 50: " + numNotas);
+            valor = valor % 50;
+
+            numNotas = valor / 20;
+            System.out.println("Notas de 20: " + numNotas);
+            valor = valor % 20;
+
+            numNotas = valor / 10;
+            System.out.println("Notas de 10: " + numNotas);
+            valor = valor % 10;
+
+            numNotas = valor / 5;
+            System.out.println("Notas de 5: " + numNotas);
+            valor = valor % 5;
+
+
+        } else {
+            System.out.println("Valor inválido.");
+        }
 
     }
 }

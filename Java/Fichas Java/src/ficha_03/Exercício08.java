@@ -13,14 +13,14 @@ public class Exercício08 {
         System.out.println("Introduza um número:");
         n1 = input.nextInt();
 
-        for (int aux = n1 - 5; aux < n1; aux++) {
-            if (aux >= 0) {
-                System.out.println(aux);
+        for (int i = n1 - 5; i < n1; i++) {
+            if (i >= 0) {
+                System.out.println(i);
             }
         }
 
-       for (int aux = n1+1; aux <= n1+5; aux++) {
-           System.out.println(aux);
-       }
+        for (int i = n1 + 1; i <= n1 + 5; i++) {
+            System.out.println(i);
+        }
     }
 }

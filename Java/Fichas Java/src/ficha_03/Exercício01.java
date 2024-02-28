@@ -7,10 +7,10 @@ public class Exercício01 {
         int num;
         num = 1;
 
-        while (num >= 1 && num <= 250) {
+        while (num <= 250) {
 
             System.out.println(num);
-            num = (num + 1);
+            num = num + 1;
         }
     }
 }

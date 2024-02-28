@@ -19,7 +19,7 @@ public class Exercício06 {
         System.out.println("Introduza um número:");
         num = input.nextInt();
 
-        while ()
+       // while ()
 
     }
 }

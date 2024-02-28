@@ -6,10 +6,12 @@ public class Exercício02 {
         int num;
         num = 2;
 
+
         while (num % 2 == 0 && num <= 400) {
             System.out.println(num);
-            num = num+2;
+            num = num + 2;
         }
+
 
     }
 }
