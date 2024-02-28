@@ -9,7 +9,11 @@ public class Exercício03 {
         for (num = 1; num <= 10; num++) {
 
             System.out.println("Tabuada dos " + num);
-            System.out.println(num*num);
+
+            for (num2 = 1; num2 <= 10; num2++) {
+
+                System.out.println(num + " x " + num2 + " = " + num*num2);
+            }
 
         }
 
