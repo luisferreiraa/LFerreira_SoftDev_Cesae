@@ -1,12 +1,15 @@
 body {
-  background-color: bisque!important;
+  
   margin: 20px;
-  font-family: "Sofia", sans-serif;
+  font-family: "Roboto", sans-serif;
+  
 }
 
 main {
   margin: 20px;
-  
+  line-height: 1.7em;
+  font-size: 15px;
+  font-weight: 300;
 }
 
 header {
@@ -16,7 +19,7 @@ top: 0px;
 
 footer {
   text-align: center;
-  background-color: grey;
+  
   padding: 5px;
   
   position: sticky;
@@ -55,18 +58,12 @@ p {
   text-align: justify;
 }
 
-span {
-  background-color: red;
-  color: white;
-}
-
 h1 {
-  font-family: serif;
   padding-top: 20px;
+  font-size: 36px!important;
 }
 
 h2 {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-top: 20px;
 
 }
