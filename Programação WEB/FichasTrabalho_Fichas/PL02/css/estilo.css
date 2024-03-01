@@ -13,19 +13,14 @@ main {
   font-weight: 300;
 }
 
+main p {
+  color: #666;
+}
+
 header {
   position: sticky;
   top: 0px;
   }
-
-footer {
-  text-align: center;
-  padding: 5px;
-  background-color: #25183E;
-  padding-top: 40px;
-  color: white;
-  font-size: 13px;
-}
 
 header img {
   width: 300px;
@@ -42,6 +37,11 @@ header img {
   display: flex;
   align-items: center;
   margin: auto;
+}
+
+.mailto {
+  text-decoration: none;
+  color: white;
 }
 
 #subscribe {
@@ -66,9 +66,11 @@ nav a {
   line-height: 20px;
   text-transform: uppercase;
   font-weight: 600;
-  margin-right: 25px;
-  
-  
+  margin-right: 25px;  
+}
+
+.dropdown-item {
+  color: grey;
 }
 
 nav a:hover {
@@ -121,10 +123,47 @@ h2 {
 margin-right: 15px;
 }
 
-.navbar-nav {
-  font-weight: 800!important;
+.nav-link {
+  font-weight: 700!important;
+  color: #25183E;
 }
 
 .bg-image {
 background-size: cover;
+}
+
+.dropdown-item {
+  color: grey!important;
+  font-size: 15px;
+  text-transform: none;
+}
+
+footer {
+  background-color: #706F6F;
+  margin-top: 25px;
+  padding-top: 60px;
+  color: white;
+  font-size: 13px;
+}
+
+.logoFooter {
+  width: 200px;
+}
+
+#footerMenu ul {
+  line-height: 30px;
+}
+
+#footerMenu p {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#footerMenu li {
+list-style-type: none;
+margin-left: -30px;
+}
+
+#bottomBar {
+  background-color: #25183E;
 }
