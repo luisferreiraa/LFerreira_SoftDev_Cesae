@@ -4,62 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Exercício01</title>
     <link rel="icon" type="image/x-icon" href="https://cesaedigital.pt/wp-content/uploads/2016/07/cropped-Favicone-32x32.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
   </head>
 
   <body>
     <header>
-     <!--  <img src="https://www.cesaedigital.pt/wp-content/uploads/2016/07/logo_cesae-cores_horizontal_header_site.png" alt=""> -->
-
-
-      <!--   
-      <nav>
-        <a href="https://www.cesaedigital.pt/" target="_blank">Página Oficial</a>
-        <a href="/Exercicio001.html" target="_blank">Início</a>
-        <a href="/multimedia.html" target="_blank">Multimédia</a>
-        <a href="/form.html" target="_blank">Formulário</a>
-        <br />
-        <a href="https://www.facebook.com/CesaeDigital"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.linkedin.com/company/cesae-digital/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.youtube.com/user/CESAECanal"><i class="fab fa-youtube"></i></a>
-      </nav>  
-    -->
-
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="https://www.cesaedigital.pt/wp-content/uploads/2016/07/logo_cesae-cores_horizontal_header_site.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/Programação WEB/FichasTrabalho_Fichas/PL02/Exercicio001.html">Início<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/Programação WEB/FichasTrabalho_Fichas/PL02/multimedia.html">Multimédia</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/Programação WEB/FichasTrabalho_Fichas/PL03/form.html">Formulário</a>
-            </li>
-          </ul>
-        <a href="https://www.facebook.com/CesaeDigital"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.linkedin.com/company/cesae-digital/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.youtube.com/user/CESAECanal"><i class="fab fa-youtube"></i></a>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search">
-          </form>
+      <div id = topbar class="row">
+        <div class="col-4 align-middle"></i>Temos o serviço ou formação que procura?<i id = faEmail class="fa fa-envelope"></i><a href="mailto:cesae@cesae.pt">cesae@cesae.pt</a></div>
+        <div id = subscribe class="col-8 text-end align-middle">
+         <div><i class="fa fa-envelope"></i><a>Subscreva a nossa newsletter</a></div> 
+          </div>
+        </div>
+    </div>
+      <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src = "https://www.cesaedigital.pt/wp-content/uploads/2016/07/logo_cesae-cores_horizontal_header_site.png"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cesae Digital</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Formação não financiada</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Formação financiada</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contactos</a>
+              </li>
+              <li class = "navSearch">
+                <i class="fas fa-search"></i>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
 
     </header>
 
     <main>
-      <div id="primeiroParag">
+
+      <div class = hero> 
+      <img src = "https://www.cesaedigital.pt/wp-content/uploads/2016/07/logo-digital-reskilling.png" class="img-fluid">
+      </div>
+
       <h1>Sobre o CESAE Digital</h1>
         <p> O CESAE Digital nasceu em julho de 2020, fruto da transformação do então designado CESAE – Centro de Serviços e Apoio às Empresas, promovida pelo Ministério do Trabalho, Solidariedade e Segurança Social, e por acordo entre o IEFP e a AEP, prosseguindo desta forma uma meritória e qualificante tarefa de cerca de 35 anos ao serviço da inovação e do conhecimento.</p>
         <p> Essa transformação do anterior CESAE, ocorre por homologação do Protocolo que cria o CESAE Digital – Centro para o Desenvolvimento das Competências Digitais, outorgado entre o IEFP – Instituto de Emprego e Formação Profissional (IEFP, IP) e a Associação Empresarial de Portugal (AEP), publicado na Portaria nº 169/2020, de 10 de julho.</p>
@@ -69,7 +68,7 @@
             <li>Potenciar o desenvolvimento das competências digitais, enquanto instrumento de promoção da empregabilidade dos ativos.</li>
             <li>Promover a conceção e participação em percursos formativos qualificantes de jovens desempregados, com o objetivo de melhorar a sua empregabilidade.</li>
           </ul>
-        </div>
+        
       <h3>Natureza, atribuições e competências</h3>
         <p>São atribuições do CESAE Digital promover a realização de formação profissional e de reconhecimento, validação e certificação de competências, a prestação de serviços e apoio técnico a entidades no âmbito das áreas das Tecnologias da Informação e da Comunicação (TIC) e do digital, prosseguindo a seguinte missão:</p>
           <ol>
@@ -87,5 +86,7 @@
     <footer>
       <p>Copyright &copy; 2024 | Desenvolvido por Luís Ferreira</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
