@@ -6,7 +6,8 @@ body {
 }
 
 main {
-  margin: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
   line-height: 1.7em;
   font-size: 15px;
   font-weight: 300;
@@ -20,8 +21,10 @@ header {
 footer {
   text-align: center;
   padding: 5px;
-  position: sticky;
-  bottom: 0;
+  background-color: #25183E;
+  padding-top: 40px;
+  color: white;
+  font-size: 13px;
 }
 
 header img {
@@ -50,7 +53,7 @@ header img {
 nav a {
   color: white;
   text-decoration: none;
-  padding: 15px; 
+   
 }
 
 .nav-link {
@@ -63,7 +66,7 @@ nav a {
   line-height: 20px;
   text-transform: uppercase;
   font-weight: 600;
-  margin-right: 30px;
+  margin-right: 25px;
   
   
 }
@@ -120,4 +123,8 @@ margin-right: 15px;
 
 .navbar-nav {
   font-weight: 800!important;
+}
+
+.bg-image {
+background-size: cover;
 }
