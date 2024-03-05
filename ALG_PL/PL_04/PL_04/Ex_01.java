@@ -9,13 +9,15 @@ public class Ex_01 {
         Scanner input = new Scanner(System.in);
 
         int valor1, valor2, operacao, resultado;
-        String continuar;
+        char continuar = 's';
 
-        System.out.println("Introduza valor 1: ");
-        valor1 = input.nextInt();
+        do {
 
-        System.out.println("Introduza valor 2: ");
-        valor2 = input.nextInt();
+            System.out.println("Introduza valor 1: ");
+            valor1 = input.nextInt();
+
+            System.out.println("Introduza valor 2: ");
+            valor2 = input.nextInt();
 
 
             System.out.println("1. +");
@@ -26,7 +28,6 @@ public class Ex_01 {
             System.out.println("Seleccione uma operação: ");
             operacao = input.nextInt();
 
-        do {
 
             switch (operacao) {
                 case 1:
@@ -51,13 +52,13 @@ public class Ex_01 {
             }
 
             System.out.println("Deseja continuar? (introduza s/n) ");
-            continuar = input.nextLine();
-/*
+            continuar = input.next().charAt(0);
 
-        } while ();
+
+        } while (continuar == 's');
 
 
     }
-    */
- */
 }
+
+
