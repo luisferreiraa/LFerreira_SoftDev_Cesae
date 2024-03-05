@@ -6,7 +6,7 @@ public class Ex_14 {
 
         Scanner input = new Scanner(System.in);
 
-        int n1, n2, n3, aux1, aux2, aux3;
+        int n1, n2, n3, temp;
 
         System.out.println("Introduz um número:");
         n1 = input.nextInt();
@@ -19,21 +19,21 @@ public class Ex_14 {
 
         if (n1 > n2) {
 
-            aux1 = n1;
+            temp = n1;
             n1 = n2;
-            n2 = aux1;
+            n2 = temp;
         }
 
         if (n2 > n3) {
-            aux2 = n2;
+            temp = n2;
             n2 = n3;
-            n3 = aux2;
+            n3 = temp;
         }
 
         if (n1 > n2) {
-            aux3 = n1;
+            temp = n1;
             n1 = n2;
-            n2 = aux3;
+            n2 = temp;
         }
 
         System.out.println("Números por ordem crescente: " + n1 + " " + n2 + " " + n3);
