@@ -11,7 +11,7 @@ public class Ex_08 {
         int[][] matriz = new int[3][3];
 
         // Ler matriz
-        System.out.println("Introduza 9 numeros: ");
+        System.out.println("Introduza 9 números: ");
         for (int i = 0; i < 3; i++)
             for (int k = 0; k < 3; k++)
                 matriz[i][k] = input.nextInt();
@@ -19,10 +19,10 @@ public class Ex_08 {
         // Imprimir matriz
         for (int i = 0; i < 3; i++) {
             for (int k = 0; k < 3; k++)
-                System.out.print(matriz[i][k] + "  ");
-            
-        }
+                System.out.print(matriz[i][k] + " ");
+            System.out.println();
 
+        }
     }
 }
 
