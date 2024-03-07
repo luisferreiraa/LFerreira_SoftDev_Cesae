@@ -1,5 +1,7 @@
 :root{
     --vermelho: #E51B15;
+    --verde: #30a73a;
+    --amarelo: #dbcb3c;
     --branco: #fff;
     --cinzento: #aaa;
     --preto: #000; 
@@ -19,6 +21,19 @@ body {
 .btn:hover {
     background-color: var(--branco);
     color: var(--vermelho);
+    border: 1px solid var(--vermelho);
+}
+
+.badge {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: 1px solid var(--branco);
+}
+
+.badge-amarelo {
+    background-color: var(--amarelo);
+    color: var(--branco);
+    border: 1px solid var(--branco);
 }
 
 header {
@@ -40,6 +55,19 @@ nav input::placeholder {
 
 main {
     text-align: justify;
+}
+
+.card-title {
+    height: 75px;
+}
+
+.carousel-caption h5, .carousel-caption p {
+    background-color: var(--vermelho);
+    text-align: center;
+}
+
+#googlemaps {
+    height: 400px;
 }
 
 footer {
