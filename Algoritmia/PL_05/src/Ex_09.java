@@ -9,27 +9,43 @@ public class Ex_09 {
 
         // Declarar variáveis
         int[][] matriz = new int[5][5];
+        int soma;
 
         // Ler matriz
-        System.out.println("Introduza 25 números: ");
-        for (int i = 0; i < 5; i++)
-            for (int k = 0; k < 5; k++)
+
+        for (int i = 0; i < 5; i++) {
+            for (int k = 0; k < 5; k++) {
+                System.out.println("Introduza o próximo número: ");
                 matriz[i][k] = input.nextInt();
+            }
+        }
 
-        /*
-
-        Imprimir matriz
+        // Imprimir matriz
         for (int i = 0; i < 5; i++) {
             for (int k = 0; k < 5; k++)
                 System.out.print(matriz[i][k] + "  ");
             System.out.println();
+        }
 
-         */
+                // Somar todos os elemento da matriz
 
-        // Somar todos os elemento da matriz
+                soma = 0;
+
+                for (int i = 0; i < 5; i++) {
+                    for (int k = 0; k < 5; k++) {
+                        soma += matriz[i][k];
+                    }
+                }
+
+                // Imprimir soma todos os elemento da matriz
+
+                System.out.println("A soma de todos os elementos da matriz é " + soma);
+
+
 
 
     }
+}
 
-}
-}
+
+
