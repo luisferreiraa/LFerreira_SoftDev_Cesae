@@ -11,18 +11,22 @@ public class Ex_08 {
         int[][] matriz = new int[3][3];
 
         // Ler matriz
-        System.out.println("Introduza 9 números: ");
-        for (int i = 0; i < 3; i++)
-            for (int k = 0; k < 3; k++)
+        for (int i = 0; i < 3; i++) { // Linha
+            for (int k = 0; k < 3; k++) { // Coluna
+                System.out.println("Insira número na matriz[" + i + "][" + k + "]: ");
                 matriz[i][k] = input.nextInt();
+            }
+        }
 
         // Imprimir matriz
         for (int i = 0; i < 3; i++) {
-            for (int k = 0; k < 3; k++)
-                System.out.print(matriz[i][k] + " ");
+            for (int k = 0; k < 3; k++) {
+                System.out.print(matriz[i][k] + "\t"); // Alinha os números
+            }
             System.out.println();
-
         }
+
+
     }
 }
 

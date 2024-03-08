@@ -17,9 +17,10 @@ public class Ex_06 {
             vetor[i] = input.nextInt();
         }
 
-        for (int i = 0; i < vetor.length; i++) {
+        for (int i = 1; i < vetor.length; i++) {
 
-            if (vetor[i]>vetor[i+1]) {
+            if (vetor[i] <= vetor[i - 1]) {
+                // O vetor deixou de ser crescente
                 crescente = false;
                 break;
             }
