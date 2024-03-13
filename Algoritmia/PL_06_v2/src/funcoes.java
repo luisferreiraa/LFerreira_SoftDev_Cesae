@@ -49,7 +49,6 @@ public class funcoes {
         return num;
     }
 
-
     /**
      * Imprime o número de asteriscos iterados.
      *
@@ -137,32 +136,61 @@ public class funcoes {
         return false;
     }
 
-    public static int maior(int[] vetor) {
-
+    /**
+     * Encontra o maior elemento de um vetor.
+     *
+     * @param vetor
+     * @return
+     */
+    public static int encontrarMaior(int[] vetor) {
         int maior = vetor[0];
-
-        for (int i = 0; i < vetor.length; i++) {
+        for (int i = 1; i < vetor.length; i++) {
             if (vetor[i] > maior) {
                 maior = vetor[i];
             }
-            System.out.println(maior);
         }
+        return maior;
     }
 
-    public static int menor(int[] vetor) {
+    /**
+     * Encontra o menor elemento de um vetor.
+     *
+     * @param vetor
+     * @return
+     */
+    public static int encontrarMenor(int[] vetor) {
         int menor = vetor[0];
-
-        for (int i = 0; i< vetor.length; i++) {
+        for (int i = 1; i < vetor.length; i++) {
             if (vetor[i] < menor) {
                 menor = vetor[i];
             }
         }
+        return menor;
     }
 
+    /**
+     * Define se os elementos de um vetor estão em ordem crescente.
+     *
+     * @param vetor
+     * @return
+     */
+    public static boolean estaCrescente(int[] vetor) {
+        for (int i = 1; i < vetor.length; i++) {
+            if (vetor[i] < vetor[i - 1]) {
+                return false;
+            }
+        }
+        return true;
+    }
 
-
+    public static void desenharQuadradro(char caracter, int linhas, int colunas) {
+        
+    }
 
 }
+
+
+
 
 
 

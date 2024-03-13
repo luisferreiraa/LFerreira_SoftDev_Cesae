@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript</title>
+</head>
+<body>
+
+ 
+<!-- <button onclick="alert('Clicado')">CLIQUE AQUI!</button> -->
+
+
+
+<button onclick="mostrarLista()">MOSTRAR LISTA</button>
+
+<!-- <button onclick="corFundoAmarelo()">AMARELO</button>
+<button onclick="corFundoVerde()">VERDE</button>
+<button onclick="corFundoLaranja()">LARANJA</button>-->
+
+<button onclick="corFundo('yellow')">AMARELO</button>
+<button onclick="corFundo('green')">VERDE</button>
+<button onclick="corFundo('orange')">LARANJA</button>
+
+<hr>
+
+<input type="text" name="input-cor" id="input-cor">
+<button onclick="mudarCor()">MUDAR COR</button>
+
+<hr>
+
+<input type="radio" name="cor-fundo" id="cor-fundo-amarelo" value="yellow">Amarelo <br>
+<input type="radio" name="cor-fundo" id="cor-fundo-verde" value="green">Verde <br>
+<button onclick="mudarCorRadio()">MUDAR COR RADIO</button>
+
+<hr>
+
+<div>
+    <h1>Exercício 2 - display</h1>
+<p id="p-ex2a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, provident! Aspernatur atque praesentium eos iusto quas. Commodi quasi, dolorem error corporis ea fugiat id? Similique, ratione? Cum vero eos tempora?
+Beatae sed necessitatibus possimus perspiciatis odit quas exercitationem, dignissimos sapiente nisi facere iste cumque ut nostrum pariatur odio quos? Doloremque animi neque odit consectetur quaerat ipsa! Aut harum labore ullam.
+Velit delectus assumenda dolore dicta dolor nisi perspiciatis eaque sunt ipsam, nemo maxime, saepe provident exercitationem tempore nam aperiam consectetur reiciendis alias cupiditate natus qui, aliquid ullam veniam! Alias, adipisci?
+Ullam suscipit eaque ducimus ad neque nisi, deleniti id quod, reiciendis architecto maxime saepe autem enim odit iusto. Totam modi dolores commodi minima placeat sint dicta in consequatur accusantium iusto!</p>
+<button id="b-ex2a" onclick="showText()">MOSTRAR</button>
+</div>
+
+<div>
+    <h1>Exercício 2 - conteúdo</h1>
+<p id="p-ex2b" style="display:none"></p>
+<button id="b-ex2b" onclick="fillText()">PREENCHER</button>
+</div>
+
+<div>
+    <h1>Exercício 3</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span id="frase"> Rem, provident! Aspernatur atque praesentium eos iusto quas. Commodi quasi, dolorem error corporis ea fugiat id? Similique, ratione? Cum vero eos tempora?
+Beatae sed necessitatibus possimus perspiciatis odit quas exercitationem, dignissimos sapiente nisi facere iste cumque ut nostrum pariatur odio quos? Doloremque animi neque odit consectetur quaerat ipsa! Aut harum labore ullam.
+Velit delectus assumenda dolore dicta dolor nisi perspiciatis eaque sunt ipsam, nemo maxime, saepe provident exercitationem tempore nam aperiam consectetur reiciendis alias cupiditate natus qui, aliquid ullam veniam! Alias, adipisci?
+Ullam suscipit eaque ducimus ad neque nisi, deleniti id quod, reiciendis architecto maxime saepe autem enim odit iusto. Totam modi dolores commodi minima placeat sint dicta in consequatur accusantium iusto!</span></p>
+<button id="b-ex3" onclick="visibilidadeFrase()">Esconder frase</button>
+</div>
+
+<div>
+    <h1>Exercício 4 e 5</h1>
+<p id="p-ex4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span id="frase"> Rem, provident! Aspernatur atque praesentium eos iusto quas. Commodi quasi, dolorem error corporis ea fugiat id? Similique, ratione? Cum vero eos tempora?
+Beatae sed necessitatibus possimus perspiciatis odit quas exercitationem, dignissimos sapiente nisi facere iste cumque ut nostrum pariatur odio quos? Doloremque animi neque odit consectetur quaerat ipsa! Aut harum labore ullam.
+Velit delectus assumenda dolore dicta dolor nisi perspiciatis eaque sunt ipsam, nemo maxime, saepe provident exercitationem tempore nam aperiam consectetur reiciendis alias cupiditate natus qui, aliquid ullam veniam! Alias, adipisci?
+Ullam suscipit eaque ducimus ad neque nisi, deleniti id quod, reiciendis architecto maxime saepe autem enim odit iusto. Totam modi dolores commodi minima placeat sint dicta in consequatur accusantium iusto!</span></p>
+<!--<button onclick="aumentar()">AUMENTAR</button>
+<button onclick="diminuir()">DIMINUIR</button>-->
+<button onclick="alterarTamanho('40px','center')">AUMENTAR</button>
+<button onclick="alterarTamanho('10px','right')">DIMINUIR</button>
+<br><br>
+<button onclick="mudarTamanho('2')">INCREMENTAR</button>
+<button onclick="mudarTamanho('-2')">DECREMENTAR</button>
+</div>
+
+
+    <script>
+    //alert('Olá')
+    //console.log('Olá')
+    //document.write('Olá')
+    </script>
+    <script src="main.js"><script>
+</body>
+</html>
