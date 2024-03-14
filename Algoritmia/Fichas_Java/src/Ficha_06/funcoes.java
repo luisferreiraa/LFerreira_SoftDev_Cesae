@@ -203,7 +203,7 @@ public class funcoes {
      * @param colunas
      */
     public static void desenharQuadradro(char caracter, int linhas, int colunas) {
-        
+
         for (int i = 0; i < linhas; i++) {
             for (int j = 0; j < colunas; j++) {
                 if (i == 0 || i == linhas - 1 || j == 0 || j == colunas - 1) {

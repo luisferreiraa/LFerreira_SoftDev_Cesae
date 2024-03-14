@@ -35,7 +35,7 @@ public class Ex_08 {
         funcoes.somarMatrizes(matriz1, matriz2);
         funcoes.somatorioMatrizes(matriz1, matriz2);
 
-        System.out.println(funcoes.somatorioMatrizes(somatorio));
+
 
     }
 }

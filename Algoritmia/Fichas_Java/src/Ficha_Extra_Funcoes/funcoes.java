@@ -64,6 +64,7 @@ public class funcoes {
 
     /**
      * Calcula e imprime a tabuada de um número inserido pelo utilizador de 1 a 10.
+     *
      * @param num
      */
     static void imprimirTabuada(int num) {
@@ -71,6 +72,45 @@ public class funcoes {
             int resultado = i * num;
             System.out.println(num + " x " + i + " = " + resultado);
         }
+    }
+
+    static String contarPiada(int num) {
+        String[] bibliotecaPiadas = {
+                "Que nome se dá a uma ferramenta perdida? Foice.",
+                "O que 17 alentejanos fazem em frente ao cinema? À espera que chegue mais um porque o filme é para maiores de 18.",
+                "Qual é a panela que está sempre triste? A panela depressão.",
+                "O que acontece se o Pai Natal morrer? Ele não estará mais em trenós."
+        };
+
+        if (num >= 0 && num < bibliotecaPiadas.length) {
+            return bibliotecaPiadas[num];
+        } else {
+            return "Desculpe, não tenho piada para esse número. Tente outro!";
+        }
+    }
+
+    /**
+     * Recebe um número inteiro e devolve a soma dos seus digitos.
+     *
+     * @param num
+     * @return
+     */
+    static double somatorio(int num) {
+
+        int soma = 0;
+
+        while (num != 0) {
+            soma = soma + (num % 10); // Adiciona o último digito ao total
+            num = num / 10; // Remove o último digito do número
+        }
+        return soma;
+    }
+
+    static double inverterInteiro(int num) {
+
+
+
+
     }
 
 }
