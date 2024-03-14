@@ -3,10 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ALG_PL.iml" filepath="$PROJECT_DIR$/.idea/ALG_PL.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PL_01/PL_01.iml" filepath="$PROJECT_DIR$/PL_01/PL_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fichas_Java/PL_01.iml" filepath="$PROJECT_DIR$/Fichas_Java/PL_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/PL_02/PL_02.iml" filepath="$PROJECT_DIR$/PL_02/PL_02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PL_03/PL_03.iml" filepath="$PROJECT_DIR$/PL_03/PL_03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PL_Extra_Ciclos/PL_Extra_Ciclos.iml" filepath="$PROJECT_DIR$/PL_Extra_Ciclos/PL_Extra_Ciclos.iml" />
     </modules>
   </component>
 </project>

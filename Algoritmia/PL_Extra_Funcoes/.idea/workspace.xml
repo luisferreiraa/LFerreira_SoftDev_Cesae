@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca7266b4-bb09-48db-bc11-b01ce7348ed0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_06/Ex_08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Funcoes/Ex_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Funcoes/Ex_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Funcoes/Ex_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Funcoes/Ex_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Funcoes/funcoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/ALG_PL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/ALG_PL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_01/PL_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/PL_01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_01/src/Ex_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_01/Ex_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_01/src/Ex_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_01/Ex_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_01/src/Ex_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_01/Ex_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_01/src/Ex_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_01/Ex_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_01/src/Ex_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_01/Ex_05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_01/src/Ex_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_01/Ex_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_01/src/Ex_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_01/Ex_07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_01/src/Ex_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_01/Ex_08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_01/src/Ex_09.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_01/Ex_09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/PL_02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_09.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_02/src/Ex_18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_02/Ex_18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_03/PL_03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_03/src/Ex_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_03/Ex_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_03/src/Ex_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_03/Ex_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_03/src/Ex_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_03/Ex_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_03/src/Ex_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_03/Ex_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_03/src/Ex_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_03/Ex_05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_03/src/Ex_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_03/Ex_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_03/src/Ex_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_03/Ex_07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_03/src/Ex_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_03/Ex_08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_03/src/Ex_09.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_03/Ex_09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_03/src/Ex_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_03/Ex_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_03/src/Ex_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_03/Ex_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_03/src/Ex_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_03/Ex_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_03/src/Ex_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_03/Ex_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_03/src/Ex_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_03/Ex_15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/.idea/PL_04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/PL_04/Ex_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_04/Ex_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/PL_04/Ex_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_04/Ex_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/PL_04/Ex_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_04/Ex_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/PL_04/Ex_04_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_04/Ex_04_v2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/out/production/PL_04/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/out/production/PL_04/.idea/PL_04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/out/production/PL_04/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/out/production/PL_04/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/out/production/PL_04/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/out/production/PL_04/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/out/production/PL_04/PL_04/Ex_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/out/production/PL_04/PL_04/Ex_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/out/production/PL_04/PL_04/Ex_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/out/production/PL_04/PL_04/Ex_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_04/out/production/PL_04/PL_04/Ex_04_v2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/.idea/PL_05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/PL_005/PL_005.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/PL_005/src/Ex_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/PL_005/src/Ex_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/PL_005/src/Ex_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/PL_005/src/Ex_04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/PL_005/src/Ex_05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/PL_005/src/Ex_06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/PL_005/src/Ex_08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/PL_005/src/Ex_09.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/PL_005/src/Ex_10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/PL_005/src/Ex_11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/PL_005/src/Ex_12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/PL_005/src/Ex_13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/PL_05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_005/Ex_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_005/Ex_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_005/Ex_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_005/Ex_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_005/Ex_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_005/Ex_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_005/Ex_08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_005/Ex_09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_005/Ex_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_005/Ex_11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_005/Ex_12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_005/Ex_13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_05/Ex_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_05/Ex_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_05/Ex_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_05/Ex_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_05/Ex_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_05/Ex_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_05/Ex_07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_05/Ex_08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_05/Ex_09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_05/Ex_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_05/Ex_11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_05/Ex_12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/out/production/PL_05/Ex_13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/src/Ex_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_05/Ex_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/src/Ex_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_05/Ex_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/src/Ex_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_05/Ex_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/src/Ex_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_05/Ex_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/src/Ex_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_05/Ex_05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/src/Ex_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_05/Ex_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/src/Ex_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_05/Ex_07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/src/Ex_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_05/Ex_08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/src/Ex_09.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_05/Ex_09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/src/Ex_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_05/Ex_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/src/Ex_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_05/Ex_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/src/Ex_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_05/Ex_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_05/src/Ex_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_05/Ex_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_06/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_06_v2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_06_v2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_06_v2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_06_v2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_06_v2/PL_06_v2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_06_v2/src/Ex_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_06/Ex_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_06_v2/src/Ex_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_06/Ex_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_06_v2/src/Ex_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_06/Ex_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_06_v2/src/Ex_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_06/Ex_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_06_v2/src/Ex_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_06/Ex_07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_06_v2/src/funcoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_06/funcoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/PL_Extra_Arrays-Matrizes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/out/production/PL_Extra_Arrays-Matrizes/Ex_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/out/production/PL_Extra_Arrays-Matrizes/Ex_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/out/production/PL_Extra_Arrays-Matrizes/Ex_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/out/production/PL_Extra_Arrays-Matrizes/Ex_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/out/production/PL_Extra_Arrays-Matrizes/Ex_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/out/production/PL_Extra_Arrays-Matrizes/Ex_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/src/Ex_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Arrays_Matrizes/Ex_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/src/Ex_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Arrays_Matrizes/Ex_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/src/Ex_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Arrays_Matrizes/Ex_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/src/Ex_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Arrays_Matrizes/Ex_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/src/Ex_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Arrays_Matrizes/Ex_05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/src/Ex_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Arrays_Matrizes/Ex_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Arrays-Matrizes/src/Ex_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Arrays_Matrizes/Ex_07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Ciclos/PL_Extra_Ciclos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Ciclos/src/Ex_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Ciclos/Ex_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Ciclos/src/Ex_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Ciclos/Ex_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Ciclos/src/Ex_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Ciclos/Ex_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Ciclos/src/Ex_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Ciclos/Ex_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Extra_Ciclos/src/Ex_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fichas_Java/src/Ficha_Extra_Ciclos/Ex_10.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2dfw1Qy9yoDV8PoBXZw8M94DyNM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/softdev/Documents/GitHub/LFerreira_SoftDev_Cesae/Algoritmia/PL_06_v2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca7266b4-bb09-48db-bc11-b01ce7348ed0" name="Changes" comment="" />
+      <created>1710412226420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710412226420</updated>
+    </task>
+    <servers />
+  </component>
+</project>
