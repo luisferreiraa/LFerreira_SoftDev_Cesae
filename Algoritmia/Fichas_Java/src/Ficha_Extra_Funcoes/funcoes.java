@@ -73,7 +73,7 @@ public class funcoes {
             System.out.println(num + " x " + i + " = " + resultado);
         }
     }
-
+/*
     static String contarPiada(int num) {
         String[] bibliotecaPiadas = {
                 "Que nome se dá a uma ferramenta perdida? Foice.",
@@ -95,6 +95,8 @@ public class funcoes {
      * @param num
      * @return
      */
+
+    /*
     static double somatorio(int num) {
 
         int soma = 0;
@@ -106,11 +108,9 @@ public class funcoes {
         return soma;
     }
 
-    static double inverterInteiro(int num) {
-
-
-
-
-    }
-
+*/
 }
+
+
+
+

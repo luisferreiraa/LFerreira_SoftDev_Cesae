@@ -10,9 +10,9 @@ public class Ex_05 {
 
         System.out.println("Introduza um número para ouvir uma piada: ");
         int num = input.nextInt();
-
+/*
         System.out.println(funcoes.contarPiada(num));
 
-
+*/
     }
 }
