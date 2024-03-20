@@ -14,8 +14,8 @@ public class Ex_07 {
         int linhas = 0;
 
         while (leitorFicheiro.hasNextLine()) {
-            String linha = leitorFicheiro.nextLine();
             linhas = linhas + 1;
+            leitorFicheiro.nextLine();
 
         }
         leitorFicheiro.close();
@@ -31,8 +31,8 @@ public class Ex_07 {
 
         // Enquanto existir uma próxima linha para o scanner ler
         while (leitorFicheiro.hasNext()) {
-            String linha = leitorFicheiro.next();
             palavras++;
+            leitorFicheiro.next();
         }
         // Fecha o scanner
         leitorFicheiro.close();
