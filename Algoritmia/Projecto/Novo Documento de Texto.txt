@@ -1,0 +1,106 @@
+MENU ADMIN
+
+1. Consulta de Ficheiros
+	ler: ficheiro Vendas
+	ler: ficheiro Clientes
+	ler: ficheiro Categorias
+	ler: escolha do utilizador
+	imprimir: conteúdo do ficheiro conforme a escolha
+
+2. Total de Vendas
+	ler: ficheiro Vendas
+	imprimir: quantas vendas foram executadas + valor total
+
+3. Total de Lucro
+	ler: ficheiro Vendas(preço do jogo)
+	ler: ficheiro Categoria(percentagens)
+	imprimir: total de lucro consoante o preço do jogo e a comissão da categoria
+
+4. Pesquisa de Cliente
+	ler: ficheiro Clientes
+	ler: id do cliente dada pelo utilizador
+	imprimir: consoante a escolha, imprimir (nome, contacto, email) *** de forma bonita ***
+
+5. Jogo Mais Caro
+	ler: ficheiro Vendas
+	imprimir: jogo mais caro que os clientes compraram
+
+6. Melhores Clientes
+	ler: ficheiro Vendas
+	imprimir: melhor/es cliente(s) - nome, contacto, email - valor total de compras + lista de todos os jogos 	que compraram.
+
+7. Melhor Categoria
+	ler: ficheiro Vendas
+	imprimir: Categoria que gerou mais lucro e quanto gerou
+
+8. Pesquisa Vendas
+	ler: ficheiro Vendas
+	ler: escolha do utilizador (jogo)
+	imprimir: todos os clientes (nome, contacto, email) de todos os clientes que o compraram
+
+9. Top 5 Jogos
+	ler: ficheiro Vendas
+	imprimir: os 5 jogos que mais lucro geraram + lucro gerado
+
+10. Bottom 5 jogos
+	ler: ficheiro Vendas
+	imprimir: os 5 jogos que menos lucro geraram + lucro gerado
+
+	
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+--------------
+|MENU CLIENTE|
+--------------
+
+----------------------------------------------------------------------------------------------------
+
+1. Novo Registo
+	ler: nomeCliente, contacto, email
+	imprimir: "Cliente Inserido com Sucesso: " + nomeCliente + "| " + contacto + "| " + email 
+
+----------------------------------------------------------------------------------------------------
+
+
+
+2. Procurar Estacionamento
+	Lugares vagos = números triangulares/ múltiplos de 5 (MAX 121)
+
+3. Imprimir Catálogo
+	ler: ficheiro (GameStart_Vendas.csv, filtrar titulos)
+	imprimir: todos os títulos de jogos (sem duplicados)
+
+4. Imprimir Catálogos Gráficos
+	ler ficheiros gráficos
+	ler opção escolhida
+	imprimir opção escolhida
+
+5. Imprimir Catálogo Editora
+	ler: ficheiro (GameStart_Vendas.csv)
+	ler: opção escolhida
+	imprimir categorias e jogos da editora escolhida
+
+6. Imprimir Catálogo Categoria
+	ler: ficheiro (GameStart_Vendas.csv)
+	ler: opção escolhida
+	imprimir todas as editoras e respetivos jogos conforme a categoria escolhida
+
+7. Imprimir Jogo Mais Recente
+	ler: ficheiro (GameStart_Vendas.csv)
+	imprimir: jogo que apareceu pela primeira vez há mais vendas
+
+
+---------------------------------------------------------------------------------------------------
+
+8. Sair
+	ler: ficheiro (GameStart_Copyright.csv)
+	imprimir: conteúdo ficheiro com outra moldura.
+
+---------------------------------------------------------------------------------------------------
