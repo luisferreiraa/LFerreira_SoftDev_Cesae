@@ -1,0 +1,34 @@
+public class UniqueItemsInMultiDimensionalArray {
+    public static void main(String[] args) {
+        int[][] multiArray = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {1, 2, 3},
+            {7, 8, 9}
+        };
+
+        System.out.println("Unique items:");
+        printUniqueItems(multiArray);
+    }
+
+    public static void printUniqueItems(int[][] multiArray) {
+        for (int i = 0; i < multiArray.length; i++) {
+            for (int j = 0; j < multiArray[i].length; j++) {
+                if (isUnique(multiArray, i, j)) {
+                    System.out.println(multiArray[i][j]);
+                }
+            }
+        }
+    }
+
+    public static boolean isUnique(int[][] multiArray, int row, int col) {
+        for (int i = 0; i < multiArray.length; i++) {
+            for (int j = 0; j < multiArray[i].length; j++) {
+                if ((i != row || j != col) && multiArray[i][j] == multiArray[row][col]) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+}

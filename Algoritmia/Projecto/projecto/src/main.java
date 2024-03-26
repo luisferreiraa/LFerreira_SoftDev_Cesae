@@ -27,13 +27,17 @@ public class main {
                 // Ler ficheiro "Admins" para um vetor
                 Scanner leitorFicheiro = new Scanner(new File("Files/GameStart_Admins.csv"));
 
+
+                // Lê Ficheiro Admins para um vetor
                 while (leitorFicheiro.hasNextLine()) {
                     String linha = leitorFicheiro.nextLine();
                     String[] linhaDividida = linha.split(";");
 
-                    // Prosseguir com menu ADMIN se password for aceite
+                    // Prosseguir se a password inserida constar da lista
                     if (password.equals(linhaDividida[1])) {
                         System.out.println("Password aceite.");
+
+                        // Menu ADMIN
 
                         int opcao;
 
@@ -54,7 +58,7 @@ public class main {
                             opcao = input.nextInt();
 
                             switch (opcao) {
-                                case 1: // Consulta de Ficheiros
+                                case 1: // Consulta de Ficheiros - [converter em função]
 
                                     int escolha;
 
@@ -86,38 +90,56 @@ public class main {
                                     break;
 
                                 case 2:
+
                                     // Função Total de Vendas
                                     double total = funcoes.totalVendas("Files/GameStart_Vendas.csv");
                                     int numeroVendas = funcoes.contarNumeroVendas("Files/GameStart_Vendas.csv");
+
                                     System.out.println("Número Total de Vendas: " + numeroVendas);
                                     System.out.println("Valor Total de Vendas: " + total + " €");
                                     break;
+
                                 case 3:
+
                                     // Função Total de Lucro
                                     break;
+
                                 case 4:
+
                                     // Função Pesquisa de Cliente
                                     funcoes.pesquisarCliente("Files/GameStart_Clientes.csv");
+
                                     break;
                                 case 5:
+
                                     // Função Jogo Mais Caro
                                     funcoes.jogoMaisCaro("Files/GameStart_Vendas.csv");
+
                                     break;
                                 case 6:
+
                                     // Função Melhores Clientes
                                     break;
+
                                 case 7:
+
                                     // Função Melhor Categoria
                                     break;
                                 case 8:
                                     // Função Pesquisa de Vendas
+                                    funcoes.pesquisarVendas("Files/GameStart_Vendas.csv");
                                     break;
+
                                 case 9:
+
                                     // Função Top 5 Jogos
                                     break;
+
                                 case 10:
+
                                     // Função Bottom 5 Jogos
                                     break;
+
                                 default:
                                     System.out.println("Opção inválida.");
                             }
@@ -132,9 +154,9 @@ public class main {
             // Se é CLIENTE:
             if (opcaoInicial.equalsIgnoreCase("CLIENTE")) {
 
+                // Menu CLIENTE
                 int opcao;
 
-                // Menu CLIENTE
                 do {
 
                     System.out.println("1. Novo Registo");
@@ -153,35 +175,51 @@ public class main {
                     switch (opcao) {
 
                         case 1:
+
                             // Função novo registo
                             funcoes.novoRegistoCliente();
                             break;
+
                         case 2:
+
                             // Função procurar estacionamento
                             int lugares = 121;
                             funcoes.procurarEstacionamento(lugares);
                             break;
+
                         case 3:
+
                             // Função imprimir catálogo
                             break;
+
                         case 4:
+
                             // Função imprimir catálogos gráficos
                             funcoes.imprimirGraficos();
                             break;
+
                         case 5:
+
                             // Função imprimir catálogo editora
                             funcoes.imprimirCatalogoEditora("Files/GameStart_Vendas.csv");
                             break;
+
                         case 6:
+
                             // Função imprimir catálogo categoria
                             break;
+
                         case 7:
+
                             // Função imprimir jogo mais recente
                             break;
+
                         case 8:
+
                             // Função imprimirFicheiro(copyright)
                             funcoes.imprimirFicheiro("Files/GameStart_Copyright.txt");
                             break;
+
                         default:
                             System.out.println("Opção inválida.");
                     }

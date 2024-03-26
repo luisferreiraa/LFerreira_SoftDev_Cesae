@@ -88,6 +88,11 @@ public class funcoes {
         } while (escolha != 0);
     }
 
+    /**
+     * Define se um número é triangular
+     * @param num
+     * @return
+     */
     public static boolean triangular(int num) {
 
         int somatorio = 0;
@@ -177,7 +182,7 @@ public class funcoes {
             // Dividir a linha pelo ponto e vírgula ";"
             String[] linhaDividida = linha.split(";");
 
-            // Se a linhaDividida[1] como inteiro MAIOR QUE idadeMaisVelha
+            // Se a linhaDividida[1] como inteiro MAIOR QUE jogoMaisCaro
             if (Double.parseDouble(linhaDividida[5]) > jogoMaisCaro) {
                 // Atualizar variáveis para ficar com as informações da pessoa mais velha atual
                 jogoMaisCaro = Double.parseDouble(linhaDividida[5]);
@@ -224,7 +229,6 @@ public class funcoes {
     }
 
 
-   /*
     public static void pesquisarVendas(String path) throws FileNotFoundException {
 
         Scanner input = new Scanner(System.in);
@@ -256,7 +260,6 @@ public class funcoes {
     }
 
 
-    */
 
     public static void imprimirCatalogoEditora(String path) throws FileNotFoundException {
 
