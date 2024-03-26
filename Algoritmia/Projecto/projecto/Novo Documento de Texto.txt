@@ -1,30 +1,31 @@
 MENU ADMIN
 
-1. Consulta de Ficheiros
+-----------------------------
+1. Consulta de Ficheiros (OK)
 	ler: ficheiro Vendas
 	ler: ficheiro Clientes
 	ler: ficheiro Categorias
 	ler: escolha do utilizador
 	imprimir: conteúdo do ficheiro conforme a escolha
-
-2. Total de Vendas
+----------------------------------
+2. Total de Vendas (OK)
 	ler: ficheiro Vendas
 	imprimir: quantas vendas foram executadas + valor total
-
+-------------------------------------------
 3. Total de Lucro
 	ler: ficheiro Vendas(preço do jogo)
 	ler: ficheiro Categoria(percentagens)
 	imprimir: total de lucro consoante o preço do jogo e a comissão da categoria
-
-4. Pesquisa de Cliente
+--------------------------------------------
+4. Pesquisa de Cliente (OK)
 	ler: ficheiro Clientes
 	ler: id do cliente dada pelo utilizador
 	imprimir: consoante a escolha, imprimir (nome, contacto, email) *** de forma bonita ***
-
+---------------------------------------------
 5. Jogo Mais Caro
 	ler: ficheiro Vendas
 	imprimir: jogo mais caro que os clientes compraram
-
+-------------------------------------------
 6. Melhores Clientes
 	ler: ficheiro Vendas
 	imprimir: melhor/es cliente(s) - nome, contacto, email - valor total de compras + lista de todos os jogos 	que compraram.
@@ -66,13 +67,10 @@ MENU ADMIN
 	ler: nomeCliente, contacto, email
 	imprimir: "Cliente Inserido com Sucesso: " + nomeCliente + "| " + contacto + "| " + email 
 
-----------------------------------------------------------------------------------------------------
-
-
-
+---------------------------------------------------------------------------------------------------
 2. Procurar Estacionamento
 	Lugares vagos = números triangulares/ múltiplos de 5 (MAX 121)
-
+------------------------------------------------
 3. Imprimir Catálogo
 	ler: ficheiro (GameStart_Vendas.csv, filtrar titulos)
 	imprimir: todos os títulos de jogos (sem duplicados)
