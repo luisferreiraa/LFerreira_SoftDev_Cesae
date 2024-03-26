@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class funcoes {
 
 
-    public static void menuAdmin () {
+    public static void menuAdmin() {
 
         System.out.println("**** Menu Admin ****");
         System.out.println();
@@ -24,7 +24,7 @@ public class funcoes {
 
     }
 
-    public static void menuCliente () {
+    public static void menuCliente() {
 
         System.out.println("**** Menu Cliente ****");
         System.out.println();
@@ -40,7 +40,7 @@ public class funcoes {
 
     }
 
-    public static void menuAdminLerFicheiros () {
+    public static void menuAdminLerFicheiros() {
 
         System.out.println("1. Consultar Vendas");
         System.out.println("2. Consultar Clientes");
@@ -453,7 +453,6 @@ public class funcoes {
 
 
      */
-
     public static void pesquisarVendas(String path1, String path2) throws FileNotFoundException {
 
         Scanner input = new Scanner(System.in);
@@ -493,7 +492,6 @@ public class funcoes {
     }
 
 
-
     /**
      * Imprime catálogo da editora
      *
@@ -525,12 +523,41 @@ public class funcoes {
 
             if (editora.equals(editoraProcurar)) {
                 System.out.println("**** " + editora + " ****");
-                System.out.println ("___ " + categoria + " ___");
+                System.out.println("___ " + categoria + " ___");
                 System.out.println(jogo);
             }
         }
 
     }
 
+
+    public static int[][] readFile(String filePath) {
+        File file = new File(filePath);
+
+        Scanner sc = new Scanner(file)) {
+            int lineCounter = 0;
+            int columnCounter = 0;
+            int[][] matrix = null;
+
+            while (sc.hasNextLine()) {
+                if (matrix == null) {
+                    String line = sc.nextLine();
+                    columnCounter = line.split(";").length;
+                    matrix = new int[lineCounter + 1][columnCounter];
+                }
+
+                String line = sc.nextLine();
+                String[] values = line.split(";");
+                for (int i = 0; i < values.length; i++) {
+                    matrix[lineCounter][i] = Integer.parseInt(values[i]);
+                }
+
+                lineCounter++;
+            }
+
+            return matrix;
+
+        }
+    }
 
 }
