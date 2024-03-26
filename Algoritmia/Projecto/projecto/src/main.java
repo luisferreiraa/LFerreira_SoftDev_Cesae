@@ -36,6 +36,7 @@ public class main {
                     // Prosseguir se a password inserida constar da lista
                     if (password.equals(linhaDividida[1])) {
                         System.out.println("Password aceite.");
+                        System.out.println();
 
                         // Menu ADMIN
 
@@ -43,30 +44,19 @@ public class main {
 
                         do {
 
-                            System.out.println("1. Consulta de Ficheiros");
-                            System.out.println("2. Total de Vendas");
-                            System.out.println("3. Total de Lucro");
-                            System.out.println("4. Pesquisa de Cliente");
-                            System.out.println("5. Jogo Mais Caro");
-                            System.out.println("6. Melhores Clientes");
-                            System.out.println("7. Melhor Categoria");
-                            System.out.println("8. Pesquisa de Vendas");
-                            System.out.println("9. Top 5 Jogos");
-                            System.out.println("10. Bottom 5 Jogos");
+                            funcoes.menuAdmin();
 
                             System.out.println("Escolha uma opção: ");
                             opcao = input.nextInt();
 
                             switch (opcao) {
-                                case 1: // Consulta de Ficheiros - [converter em função]
+                                case 1: // Consulta de Ficheiros
 
                                     int escolha;
 
-                                    do {
+                                    funcoes.menuAdminLerFicheiros();
 
-                                        System.out.println("1. Consultar Vendas");
-                                        System.out.println("2. Consultar Clientes");
-                                        System.out.println("3. Consultar Categorias");
+                                    do {
 
                                         System.out.println("Escolha uma opção: ");
                                         escolha = input.nextInt();
@@ -127,7 +117,7 @@ public class main {
                                     break;
                                 case 8:
                                     // Função Pesquisa de Vendas
-                                    funcoes.pesquisarVendas("Files/GameStart_Vendas.csv");
+                                    funcoes.pesquisarVendas("Files/GameStart_Vendas.csv","Files/GameStart_Clientes.csv");
                                     break;
 
                                 case 9:
@@ -140,6 +130,11 @@ public class main {
                                     // Função Bottom 5 Jogos
                                     break;
 
+                                case 11:
+                                    // Função Imprimir Ficheiro (copyright)
+                                    funcoes.imprimirFicheiro("Files/GameStart_Copyright.txt");
+                                    break;
+
                                 default:
                                     System.out.println("Opção inválida.");
                             }
@@ -147,6 +142,7 @@ public class main {
                         while (opcao != 10);
                     }
                 }
+
                 // Informar caso a password estiver incorrecta
                 System.out.println("Password incorreta.");
             }
@@ -159,15 +155,7 @@ public class main {
 
                 do {
 
-                    System.out.println("1. Novo Registo");
-                    System.out.println("2. Procurar Estacionamento");
-                    System.out.println("3. Catálogo");
-                    System.out.println("4. Catálogos Gráficos");
-                    System.out.println("5. Catálogo Editora");
-                    System.out.println("6. Catálogo Categoria");
-                    System.out.println("7. Jogo Mais Recente");
-                    System.out.println("8. Sair");
-
+                    funcoes.menuCliente();
 
                     System.out.println("Escolha uma opção: ");
                     opcao = input.nextInt();
@@ -190,6 +178,7 @@ public class main {
                         case 3:
 
                             // Função imprimir catálogo
+
                             break;
 
                         case 4:
