@@ -24,7 +24,7 @@ public class main {
                 System.out.println("PASSWORD: ");
                 String password = input.nextLine();
 
-                // Ler ficheiro "Admins" para um vetor
+                // Iniciar Scanner
                 Scanner leitorFicheiro = new Scanner(new File("Files/GameStart_Admins.csv"));
 
 
@@ -52,77 +52,62 @@ public class main {
                             switch (opcao) {
                                 case 1: // Consulta de Ficheiros
 
-                                    int escolha;
-
                                     funcoes.menuAdminLerFicheiros();
-
-                                    do {
-
-                                        System.out.println("Escolha uma opção: ");
-                                        escolha = input.nextInt();
-
-                                        // Imprimir Ficheiro Vendas
-                                        if (escolha == 1) {
-                                            funcoes.imprimirFicheiro("Files/GameStart_Vendas.csv");
-                                        }
-
-                                        // Imprimir Ficheiro Clientes
-                                        if (escolha == 2) {
-                                            funcoes.imprimirFicheiro("Files/GameStart_Clientes.csv");
-                                        }
-
-                                        // Imprimir Ficheiro Categorias
-                                        if (escolha == 3) {
-                                            funcoes.imprimirFicheiro("Files/GameStart_Categorias.csv");
-                                        }
-
-                                    } while (escolha != 0);
                                     break;
 
                                 case 2:
 
                                     // Função Total de Vendas
+
                                     double total = funcoes.totalVendas("Files/GameStart_Vendas.csv");
                                     int numeroVendas = funcoes.contarNumeroVendas("Files/GameStart_Vendas.csv");
 
-                                    System.out.println("Número Total de Vendas: " + numeroVendas);
-                                    System.out.println("Valor Total de Vendas: " + total + " €");
+                                    System.out.println("**** Número Total de Vendas ****");
+                                    System.out.println(numeroVendas);
+                                    System.out.println("**** Valor Total de Vendas **** ");
+                                    System.out.println(total + " € ");
                                     break;
 
                                 case 3:
 
                                     // Função Total de Lucro
+
                                     break;
 
                                 case 4:
 
                                     // Função Pesquisa de Cliente
-                                    funcoes.pesquisarCliente("Files/GameStart_Clientes.csv");
 
+                                    funcoes.pesquisarCliente("Files/GameStart_Clientes.csv");
                                     break;
+
                                 case 5:
 
                                     // Função Jogo Mais Caro
-                                    funcoes.jogoMaisCaro("Files/GameStart_Vendas.csv");
 
+                                    funcoes.jogoMaisCaro("Files/GameStart_Vendas.csv", "Files/GameStart_Clientes.csv");
                                     break;
                                 case 6:
 
                                     // Função Melhores Clientes
+
                                     break;
 
                                 case 7:
 
                                     // Função Melhor Categoria
+
                                     break;
                                 case 8:
                                     // Função Pesquisa de Vendas
-                                    funcoes.pesquisarVendas("Files/GameStart_Vendas.csv","Files/GameStart_Clientes.csv");
+
+                                    funcoes.pesquisarVendas("Files/GameStart_Vendas.csv");
                                     break;
 
                                 case 9:
 
                                     // Função Top 5 Jogos
+
                                     break;
 
                                 case 10:
@@ -130,16 +115,18 @@ public class main {
                                     // Função Bottom 5 Jogos
                                     break;
 
-                                case 11:
+                                case 11: // Sair
                                     // Função Imprimir Ficheiro (copyright)
+
                                     funcoes.imprimirFicheiro("Files/GameStart_Copyright.txt");
                                     break;
 
                                 default:
                                     System.out.println("Opção inválida.");
+
                             }
                         }
-                        while (opcao != 10);
+                        while (opcao < 11);
                     }
                 }
 
@@ -157,7 +144,7 @@ public class main {
 
                     funcoes.menuCliente();
 
-                    System.out.println("Escolha uma opção: ");
+                    System.out.println("**** Escolha uma opção **** ");
                     opcao = input.nextInt();
 
                     switch (opcao) {
@@ -178,7 +165,6 @@ public class main {
                         case 3:
 
                             // Função imprimir catálogo
-
                             break;
 
                         case 4:
@@ -196,6 +182,7 @@ public class main {
                         case 6:
 
                             // Função imprimir catálogo categoria
+                            funcoes.imprimirCatalogoCategoria("Files/GameStart_Vendas.csv");
                             break;
 
                         case 7:
@@ -203,7 +190,7 @@ public class main {
                             // Função imprimir jogo mais recente
                             break;
 
-                        case 8:
+                        case 8: // Sair
 
                             // Função imprimirFicheiro(copyright)
                             funcoes.imprimirFicheiro("Files/GameStart_Copyright.txt");
@@ -213,7 +200,7 @@ public class main {
                             System.out.println("Opção inválida.");
                     }
                 }
-                while (opcao != 8);
+                while (opcao < 8);
             }
         } catch (FileNotFoundException e) {
             System.out.println("Ficheiro não foi encontrado.");

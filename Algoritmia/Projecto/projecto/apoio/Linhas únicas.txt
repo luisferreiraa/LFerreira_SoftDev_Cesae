@@ -1,0 +1,40 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class LeitorSimples {
+    public static void main(String[] args) {
+        String nomeArquivo = "seuarquivo.txt"; // Substitua pelo caminho do seu arquivo
+
+        try {
+            File arquivo = new File(nomeArquivo);
+            Scanner scanner = new Scanner(arquivo);
+
+            String[] linhasUnicas = new String[1000]; // Tamanho máximo de linhas (ajuste conforme necessário)
+            int numLinhas = 0;
+
+            while (scanner.hasNextLine()) {
+                String linha = scanner.nextLine();
+                boolean jaExiste = false;
+
+                // Verifica se a linha já foi lida
+                for (int i = 0; i < numLinhas; i++) {
+                    if (linha.equals(linhasUnicas[i])) {
+                        jaExiste = true;
+                        break;
+                    }
+                }
+
+                if (!jaExiste) {
+                    linhasUnicas[numLinhas] = linha;
+                    numLinhas++;
+                    System.out.println(linha);
+                }
+            }
+
+            scanner.close();
+        } catch (FileNotFoundException e) {
+            System.err.println("Arquivo não encontrado: " + e.getMessage());
+        }
+    }
+}
