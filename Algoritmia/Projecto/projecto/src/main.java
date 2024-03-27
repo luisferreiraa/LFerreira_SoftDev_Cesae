@@ -44,7 +44,7 @@ public class main {
 
                         do {
 
-                            funcoes.menuAdmin();
+                            menuAdmin.menuAdmin();
 
                             System.out.println("Escolha uma opção: ");
                             opcao = input.nextInt();
@@ -52,15 +52,15 @@ public class main {
                             switch (opcao) {
                                 case 1: // Consulta de Ficheiros
 
-                                    funcoes.menuAdminLerFicheiros();
+                                    menuAdminLerFicheiros.menuAdminLerFicheiros();
                                     break;
 
                                 case 2:
 
                                     // Função Total de Vendas
 
-                                    double total = funcoes.totalVendas("Files/GameStart_Vendas.csv");
-                                    int numeroVendas = funcoes.contarNumeroVendas("Files/GameStart_Vendas.csv");
+                                    double total = totalVendas.totalVendas("Files/GameStart_Vendas.csv");
+                                    int numeroVendas = contarNumeroVendas.contarNumeroVendas("Files/GameStart_Vendas.csv");
 
                                     System.out.println("**** Número Total de Vendas ****");
                                     System.out.println(numeroVendas);
@@ -78,14 +78,14 @@ public class main {
 
                                     // Função Pesquisa de Cliente
 
-                                    funcoes.pesquisarCliente("Files/GameStart_Clientes.csv");
+                                    pesquisarCliente.pesquisarCliente("Files/GameStart_Clientes.csv");
                                     break;
 
                                 case 5:
 
                                     // Função Jogo Mais Caro
 
-                                    funcoes.jogoMaisCaro("Files/GameStart_Vendas.csv", "Files/GameStart_Clientes.csv");
+                                    jogoMaisCaro.jogoMaisCaro("Files/GameStart_Vendas.csv", "Files/GameStart_Clientes.csv");
                                     break;
                                 case 6:
 
@@ -101,7 +101,7 @@ public class main {
                                 case 8:
                                     // Função Pesquisa de Vendas
 
-                                    funcoes.pesquisarVendas("Files/GameStart_Vendas.csv");
+                                    pesquisarVendas.pesquisarVendas("Files/GameStart_Vendas.csv");
                                     break;
 
                                 case 9:
@@ -118,7 +118,7 @@ public class main {
                                 case 11: // Sair
                                     // Função Imprimir Ficheiro (copyright)
 
-                                    funcoes.imprimirFicheiro("Files/GameStart_Copyright.txt");
+                                    imprimirFicheiro.imprimirFicheiro("Files/GameStart_Copyright.txt");
                                     break;
 
                                 default:
@@ -142,7 +142,7 @@ public class main {
 
                 do {
 
-                    funcoes.menuCliente();
+                    menuCliente.menuCliente();
 
                     System.out.println("**** Escolha uma opção **** ");
                     opcao = input.nextInt();
@@ -152,37 +152,43 @@ public class main {
                         case 1:
 
                             // Função novo registo
-                            funcoes.novoRegistoCliente();
+                            novoRegistoCliente.novoRegistoCliente();
                             break;
 
                         case 2:
 
                             // Função procurar estacionamento
                             int lugares = 121;
-                            funcoes.procurarEstacionamento(lugares);
+                            procurarEstacionamento.procurarEstacionamento(lugares);
                             break;
 
                         case 3:
 
                             // Função imprimir catálogo
+
+                            String[] vendas = lerFicheiro.lerFicheiro("Files/GameStart_Vendas.csv");
+
+
+                                imprimirJogos.imprimirJogosUnicos(vendas);
+
                             break;
 
                         case 4:
 
                             // Função imprimir catálogos gráficos
-                            funcoes.imprimirGraficos();
+                            imprimirGraficos.imprimirGraficos();
                             break;
 
                         case 5:
 
                             // Função imprimir catálogo editora
-                            funcoes.imprimirCatalogoEditora("Files/GameStart_Vendas.csv");
+                            imprimirCatalogoEditora.imprimirCatalogoEditora("Files/GameStart_Vendas.csv");
                             break;
 
                         case 6:
 
                             // Função imprimir catálogo categoria
-                            funcoes.imprimirCatalogoCategoria("Files/GameStart_Vendas.csv");
+                            imprimirCatalogoCategoria.imprimirCatalogoCategoria("Files/GameStart_Vendas.csv");
                             break;
 
                         case 7:
@@ -193,7 +199,7 @@ public class main {
                         case 8: // Sair
 
                             // Função imprimirFicheiro(copyright)
-                            funcoes.imprimirFicheiro("Files/GameStart_Copyright.txt");
+                            imprimirFicheiro.imprimirFicheiro("Files/GameStart_Copyright.txt");
                             break;
 
                         default:

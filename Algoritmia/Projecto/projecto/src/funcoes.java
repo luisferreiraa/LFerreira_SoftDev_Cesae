@@ -59,7 +59,7 @@ public class funcoes {
 
             } while (escolha != 0);
 
-        }catch (FileNotFoundException e) {
+        } catch (FileNotFoundException e) {
             System.out.println("Ficheiro não encontrado.");
         }
     }
@@ -219,6 +219,7 @@ public class funcoes {
 
             // Se a linhaDividida[1] como inteiro MAIOR QUE jogoMaisCaro
             if (Double.parseDouble(linhaDividida[5]) > jogoMaisCaro) {
+
                 // Atualizar variáveis para ficar com as informações do jogo mais caro
                 jogoMaisCaro = Double.parseDouble(linhaDividida[5]);
                 nomeJogoMaisCaro = linhaDividida[4];
@@ -240,9 +241,9 @@ public class funcoes {
             // Dividir a linha pelo ponto e vírgula ";"
             String[] linhaDividida = linha.split(";");
 
-                if (linhaDividida[0].equals(idComprou)) {
-                    idComprou = linhaDividida[1];
-                }
+            if (linhaDividida[0].equals(idComprou)) {
+                idComprou = linhaDividida[1];
+            }
         }
 
         System.out.println("**** Jogo Mais Caro ****");
@@ -433,6 +434,7 @@ public class funcoes {
 
     /**
      * Imprime catálogo de uma categoria inserida pelo utilizador
+     *
      * @param path
      * @throws FileNotFoundException
      */
@@ -482,7 +484,7 @@ public class funcoes {
 
             String[] linhaDividida = linha.split(";");
 
-            for (int i=0; i < linhaDividida.length; i++) {
+            for (int i = 0; i < linhaDividida.length; i++) {
 
             }
 
@@ -606,4 +608,12 @@ public class funcoes {
 
     }
 
+
 }
+
+
+
+
+
+
+
